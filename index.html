@@ -27,8 +27,13 @@
             font-size: 3rem; /* Adjust this value to change the font size */
             text-align: center;
             margin-bottom: 10px;
-            margin-top: 20px; /* Add a margin-top to separate the brand text from the top of the page */
         }
+
+        .nav-item {
+            flex-grow: 1;
+            text-align: center;
+        }
+
     </style>
 </head>
 
@@ -40,7 +45,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto d-flex w-100">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
