@@ -1,0 +1,20 @@
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    display: block;
+  }
+}
+
+body {
+  padding-top: 3.5rem;
+}
+
+.jumbotron {
+  background-image: url("logo_sydney4_full.jpg");
+  background-size: cover;
+  color: #fffff;
+  height:500px;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
