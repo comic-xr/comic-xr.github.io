@@ -24,7 +24,7 @@
         }
 
         .custom-text-color .nav-link:active {
-            color: blue !important; /* Add this line to change the color to blue when clicked */
+            color: blue !important;
         }
 
         .custom-brand {
@@ -37,6 +37,33 @@
         .nav-item {
             flex-grow: 1;
             text-align: center;
+        }
+
+        /* Add the following CSS for the header section */
+        .header {
+            background-image: url('your-image-url.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        .header-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+
+        .header-text h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .header-text p {
+            font-size: 1.5rem;
         }
 
     </style>
@@ -70,10 +97,4 @@
                     <a class="nav-link" href="News.html">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Get_Involved.html">Get Involved</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</body>
-</html>
+                   
